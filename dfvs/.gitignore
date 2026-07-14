@@ -1,0 +1,27 @@
+# Build output
+target/
+*.class
+*.jar.original
+
+# Runtime artifacts
+data/
+logs/
+.cluster/
+*.log
+*.mv.db
+*.trace.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Claude Code
+.claude/
+CLAUDE.md
+.claude.json
+.mcp.json
+
+# OS
+.DS_Store
